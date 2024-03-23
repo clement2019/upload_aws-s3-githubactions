@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.listen(port);
-console.log(`App running at http://localhost:${port}`);
+console.log(`server running  ..... at http://localhost:${port}`);
 
 app.get('/health', (req, res) => {
   res.send('OK');
